@@ -1,4 +1,4 @@
-from transcript_extractor.exception import get_transcript, get_transcript_with_timestamps
+from transcript_extractor.extract_transcript import get_transcript, get_transcript_with_timestamps
 from transcript_extractor.saving_file import save_transcript_to_file
 import os
 

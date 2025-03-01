@@ -1,7 +1,7 @@
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
-from transcript_extractor.full_transcript import format_transcript
+from transcript_extractor.format import format_transcript
 from transcript_extractor.id_extraction import extract_video_id
-from transcript_extractor.timestamp_transcription import format_transcript_with_timestamps
+from transcript_extractor.format_timestamps import format_transcript_with_timestamps
 
 def get_transcript(video_url, language=None):
     """
