@@ -1,6 +1,3 @@
-import re
-from urllib.parse import urlparse, parse_qs
-from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
 from transcript_extractor.exception import get_transcript, get_transcript_with_timestamps
 from transcript_extractor.saving_file import save_transcript_to_file
 import os
