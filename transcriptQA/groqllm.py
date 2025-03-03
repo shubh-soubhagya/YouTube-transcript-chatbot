@@ -46,8 +46,4 @@ def ask_groq(question, transcript_text, client):
     except Exception as e:
         return f"Error: {str(e)}"
 
-# Example usage:
-# question = "What is the main topic discussed in the transcript?"
-# answer = ask_groq(question)
-# print("Answer:", answer)
 
