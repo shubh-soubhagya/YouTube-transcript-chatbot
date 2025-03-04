@@ -1,5 +1,3 @@
-from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
-from urllib.parse import urlparse, parse_qs
 from flask import Flask, request, jsonify, render_template, send_from_directory
 from transcript_extractor.extract_transcript import get_transcript, get_transcript_with_timestamps
 from dotenv import load_dotenv
