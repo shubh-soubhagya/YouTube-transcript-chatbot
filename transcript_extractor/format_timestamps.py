@@ -1,13 +1,5 @@
 def format_transcript_with_timestamps(transcript_segments):
-    """
-    Format the transcript with timestamps.
-    
-    Args:
-        transcript_segments (list): List of transcript segments
-    
-    Returns:
-        str: Formatted transcript text with timestamps
-    """
+
     if not transcript_segments:
         return ""
     
