@@ -1,13 +1,5 @@
 def format_transcript(transcript_segments):
-    """
-    Format the transcript into a readable text.
-    
-    Args:
-        transcript_segments (list): List of transcript segments
-    
-    Returns:
-        str: Formatted transcript text
-    """
+
     if not transcript_segments:
         return ""
     
