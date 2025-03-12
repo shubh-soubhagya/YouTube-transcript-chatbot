@@ -4,16 +4,7 @@ from transcript_extractor.id_extraction import extract_video_id
 from transcript_extractor.format_timestamps import format_transcript_with_timestamps
 
 def get_transcript(video_url, language=None):
-    """
-    Get the transcript for a YouTube video.
-    
-    Args:
-        video_url (str): The YouTube video URL
-        language (str, optional): Language code for the transcript (e.g., 'en')
-    
-    Returns:
-        dict: Dictionary with 'success', 'transcript' and 'error' keys
-    """
+
     video_id = extract_video_id(video_url)
     
     if not video_id:
@@ -58,16 +49,7 @@ def get_transcript(video_url, language=None):
         }
 
 def get_transcript_with_timestamps(video_url, language=None):
-    """
-    Get the transcript with timestamps.
-    
-    Args:
-        video_url (str): The YouTube video URL
-        language (str, optional): Language code for the transcript
-    
-    Returns:
-        dict: Dictionary with 'success', 'transcript' and 'error' keys
-    """
+
     video_id = extract_video_id(video_url)
     
     if not video_id:
