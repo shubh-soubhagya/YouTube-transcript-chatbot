@@ -1,6 +1,6 @@
-# YouTube Support ChatBot
+# YouTube Transcript ChatBot
 
-The **YouTube Support ChatBot** is an AI-powered tool designed to enhance video content interaction. It enables users to extract transcripts, ask questions, and receive context-aware answers through an intuitive web-based interface. By leveraging advanced AI models, it eliminates the need for manual video reviews, making it an invaluable resource for researchers, professionals, and students. Users can efficiently analyze lectures, tutorials, and discussions without watching entire videos.  
+The **YouTube Transcript ChatBot** is an AI-powered tool designed to enhance video content interaction. It enables users to extract transcripts, ask questions, and receive context-aware answers through an intuitive web-based interface. By leveraging advanced AI models, it eliminates the need for manual video reviews, making it an invaluable resource for researchers, professionals, and students. Users can efficiently analyze lectures, tutorials, and discussions without watching entire videos.  
 
 This chatbot boosts productivity with features like transcript downloads, chat history navigation, and intelligent response generation. Its ability to process YouTube transcripts and provide precise insights makes it a powerful research companion.
 
