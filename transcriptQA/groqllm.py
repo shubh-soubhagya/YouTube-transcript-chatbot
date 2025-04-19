@@ -1,7 +1,7 @@
 import os
 
 # Dynamically get the correct file path
-file_path = os.path.join(os.getcwd(), "YouTube-support-chatbot", "temp_files", "transcripts_with_timestamps.txt")
+file_path = os.path.join(os.getcwd(), "temp_files", "transcripts_with_timestamps.txt")
 
 def load_text(file_path):
     """
