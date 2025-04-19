@@ -23,15 +23,10 @@ This chatbot boosts productivity with features like transcript downloads, chat h
 
 ---
 
-## 🛠 Technologies Used
+## Website Demo
 
-The chatbot is built using the following libraries:
+![Website UI](assets/demo.png)
 
-| Library                        | Version  | Purpose  |
-|--------------------------------|----------|-------------------------------------------------------------------------------------------------|
-| `groq`                        | 0.16.0   | Integrates advanced AI language processing capabilities.                                      |
-| `flask`                        | 3.0.3    | Builds the interactive, web-based application interface.                                     |
-| `youtube-transcript-api`       | 0.6.3    | Fetches and processes video transcripts directly from YouTube for accurate responses.        |
 
 ## 📦 Custom Packages
 - **`transcript_extractor`**: Extracts and preprocesses YouTube video transcripts efficiently.
