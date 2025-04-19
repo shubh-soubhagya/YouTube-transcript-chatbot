@@ -16,7 +16,7 @@ api_key = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=api_key)
 
 # Define temp directory for transcript files
-base_path = os.path.abspath(os.path.join(os.getcwd(), "YouTube-support-chatbot", "temp_files"))
+base_path = os.path.abspath(os.path.join(os.getcwd(), "temp_files"))
 transcript_file = os.path.join(base_path, "transcript.txt")
 timestamp_file = os.path.join(base_path, "transcripts_with_timestamps.txt")
 
